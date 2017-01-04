@@ -1,3 +1,9 @@
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
+
+.twilight-background {
+  background: url("../images/twinkle-background.png") no-repeat center center fixed;
+  background-size: cover;
+}
