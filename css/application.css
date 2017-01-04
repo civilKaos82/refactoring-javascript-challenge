@@ -88,3 +88,10 @@ body {
 .orange-button:active {
   background: #f59331;
 }
+
+.answer {
+  padding: 1.25em;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
