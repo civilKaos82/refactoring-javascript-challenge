@@ -2,8 +2,26 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 14px;
+}
 
 .twilight-background {
   background: url("../images/twinkle-background.png") no-repeat center center fixed;
   background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.header {
+  margin: 5em 0;
+}
+
+.logo {
+  width: 100%;
 }
