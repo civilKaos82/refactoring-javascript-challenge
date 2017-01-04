@@ -10,7 +10,7 @@ var alreadyAsked = function(question, questions) {
 
 $(document).ready(function() {
   $("#ask-button").on("click", function() {
-    var question = $("#question").val();
+    var question = $("#question").val().trim();
 
     if(question === "") {
       // Get a random item from responsesForEmptyQuestion
